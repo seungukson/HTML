@@ -7,14 +7,14 @@
 <body>
   <h1><a href="index.html">WEB</a></h1>
 <ol>
-  <li><a href="1.html"> HTML</a></li>
-  <li><a href="2.html"> CSS</a></li>
-  <li><a href="3.html"> JavaScript</a></li>
-  <li><a href="4.html"> PHP</a></li>
+  <li><a href="index.php?id=HTML"> HTML</a></li>
+  <li><a href="index.php?id=CSS"> CSS</a></li>
+  <li><a href="index.php?id=Java"> JavaScript</a></li>
+  <li><a href="index.php?id=PHP"> PHP</a></li>
 </ol>
 <p><a href="https://www.w3.org/TR/html53/" target="_blank" title="specification으로이동">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.<p/>
 
-<h1> PHP란 무엇인가?</h1>
+<h1> <?php echo $_GET['id']; ?>란 무엇인가?</h1>
 <p>PHP: Hypertext Preprocessor is a general-purpose programming language originally designed for web development. It was originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group</p>
 
 그럼 우리 함께 파이썬 탐험을 떠나 볼까요~<br>
